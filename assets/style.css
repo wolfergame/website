@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body * {
+    color: white;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+}
+.background {
+    background-image: url("images/gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.background .container {
+    height: 100%;
+}
+h1 {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.textshadow {
+    text-shadow: rgb(0, 0, 0, 0.3) 2px 5px;
+}
+.textshadow span {
+    text-shadow: rgb(0, 0, 0, 0.3) 2px 3px;
+    font-size: 25px;
+}
+.consolefont {
+    font-family: 'Inconsolata', monospace;
+}
+.col-sm-4 {
+    margin-top: 10%;
+}
+.col-sm-4 p {
+   font-size: 20px;
+}
+.btn i {
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    
+    .col-md-auto {
+        margin-bottom: 10px;
+    }
+    body {
+        background-image: url("images/gradient.png");
+    }
+    .textshadow {
+        text-shadow: rgb(0, 0, 0, 0.3) 2px 3px;
+    }
+    .col-sm-8 {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.separator {
+    width: 100%;
+}
+
+.categorycontainer {
+    margin-top: 50px;
+    margin-left: 22%;
+}
+.categorycontainer * {
+    color: black;
+}
+.categorycontainer p {
+    margin-left: 10px;
+}
