@@ -56,15 +56,15 @@ h1 {
     .col-md-auto {
         margin-bottom: 10px;
     }
-    body {
-        background-image: url("images/gradient.png");
-    }
     .textshadow {
         text-shadow: rgb(0, 0, 0, 0.3) 2px 3px;
     }
     .col-sm-8 {
         text-align: center;
         align-items: center;
+    }
+    .separator {
+        visibility: hidden;
     }
 }
 
